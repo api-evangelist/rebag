@@ -1,7 +1,28 @@
 aid: rebag
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rebag.png
 name: Rebag
-description: Rebag is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rebag is an online marketplace for buying, selling, and trading pre-owned
+  luxury goods — designer handbags, watches, fine jewelry, shoes, apparel, and
+  accessories from houses such as Chanel, Hermes, Louis Vuitton, Prada, Goyard,
+  and Gucci. Founded in 2014 and headquartered in New York City, Rebag
+  authenticates every item in-house and is known for Clair (Comprehensive
+  Luxury Appraisal Index for Resale), an AI-driven pricing engine that gives
+  sellers instant, guaranteed buyback quotes. Rebag operates a mobile app,
+  physical retail stores, and consignment/trade-in programs, and is backed by
+  investors including General Catalyst. This profile tracks Rebag's public web
+  presence; no public developer API has been identified.
 url: https://raw.githubusercontent.com/api-evangelist/rebag/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Luxury
+- Resale
+- Ecommerce
+- Marketplace
+- Fashion
+- Handbags
+- Secondhand
+- Retail
 apis: []
+common:
+- type: Website
+  url: https://www.rebag.com/
+- type: Blog
+  url: https://www.rebag.com/magazine/
+- type: Support
+  url: https://www.rebag.com/faq/
+- type: Contact
+  url: https://www.rebag.com/contact/
+- type: TermsOfService
+  url: https://www.rebag.com/terms/
+- type: Partners
+  url: https://www.rebag.com/partners/
+- type: DomainSecurity
+  url: security/rebag-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
